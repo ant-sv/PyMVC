@@ -2,7 +2,6 @@ from psycopg2 import connect, ProgrammingError
 from feedparser import parse
 from datetime import datetime
 
-
 class Model:
 
     DB_VERS = None
